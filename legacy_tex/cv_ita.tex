@@ -1,0 +1,163 @@
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                        % style options are 'casual' (default) and 'classic' 
+\moderncvcolor{green}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+
+% personal data
+\firstname{Riccardo}
+\familyname{Tesselli}
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+\address{via G. Garzoni 2/2, Bologna (BO)}{40138}    % optional, remove the line if not wanted
+\mobile{+39 3382613795}                     % optional, remove the line if not wanted
+\phone{+39 051 4074450}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{riccardo.tesselli@gmail.com}                          % optional, remove the line if not wanted
+%\homepage{www.johndoe.com}                    % optional, remove the line if not wanted
+%\extrainfo{additional information}            % optional, remove the line if not wanted
+\photo[64pt][0.4pt]{rtesselli.jpg}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand{•}{•}*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+\maketitle
+\section{Informazioni personali}
+\cvitem{Cognome}{\emph{Tesselli}}
+\cvitem{Nome}{\emph{Riccardo}}
+\cvitem{Data di nascita}{\emph{20/07/1990}}
+\cvitem{Luogo di nascita}{\emph{Ecuador}}
+\cvitem{Indirizzo}{\emph{via G. Garzoni 2/2, Bologna (BO)}}
+\cvitem{CAP}{\emph{40138}}
+\cvitem{Cellulare}{\emph{+39 3382613795}}
+\cvitem{Telefono}{\emph{+39 051 4074450}}
+\cvitem{E-mail}{\emph{riccardo.tesselli@gmail.com}}
+\cvitem{LinkedIn}{\href{https://it.linkedin.com/pub/riccardo-tesselli/30/445/bb0}{\emph{https://it.linkedin.com/pub/riccardo-tesselli/30/445/bb0}}}
+\cvitem{Skype}{\emph{rickytess}}
+\cvitem{Nazionalità}{\emph{Italiana}}
+\cvitem{Sesso}{\emph{Maschio}}
+
+%\section{Ruolo desiderato}
+%\cvitem{}{Programmatore con possibilità di crescita professionale in progetti innovativi.}
+
+%\section{Aree di interesse}
+%\cvitem{}{Intelligenza artificiale. Apprendimento automatico. Sistemi con vincoli. TODO en}
+
+\section{Esperienze lavorative}
+\cventry{10/2015 -- Oggi}{Junior Algorithms Engineer}{Datalogic}{Bologna}{}{Sviluppo di algoritmi relativi alla localizzazione e decodifica di codici a barre bidimensionali in ambito embedded.}
+\cventry{10/2014 -- 6/2015}{Tutor}{Università degli Studi di Padova}{}{}{Ho svolto il ruolo di Tutor Didattico per il corso di laurea triennale in Informatica. I corsi seguiti sono stati principalmente Architettura degli Elaboratori, Programmazione del primo anno e Algoritmi e Strutture Dati del secondo.}
+\cventry{7/2014 -- 12/2014}{Sviluppatore}{}{Padova}{}{Svolta prestazione d'opera intellettuale per due progetti ad uso museale sui temi della Natural Interaction e Computer Vision.}
+\cventry{9/2013 -- 1/2014}{Tutor}{Università degli Studi di Padova}{}{}{Ho svolto il ruolo di Tutor Didattico per il corso di laurea triennale in Informatica. I corsi seguiti sono stati principalmente Architettura degli Elaboratori e Programmazione del primo anno.}
+\cventry{3/2013 -- 6/2013}{Insegnante}{Associazione Albert Einstein}{Ravenna}{}{Ho tenuto lezioni private di Informatica, Elettronica e Sistemi a studenti delle superiori.}
+\cventry{9/2012 -- 1/2013}{Sviluppatore}{Università degli Studi di Padova}{}{}{A seguito del successo riscontrato nel progetto del corso di Ingegneria del Software, parte del team di sviluppo \textit{Plan 'n' Pray} è stato assunto dal Dipartimento di Ingegneria per l'Informazione dell'Università di Padova per la continuazione del progetto SAKE.}
+\cventry{6/2012 -- 9/2012}{Stagista}{NASA Ames Research Center - Università degli Studi di Padova}{}{}{Stage interno della laurea triennale in Informatica dell'Università di Padova, sotto la supervisione della Dr.ssa Kristen Brent Venable e del Dr. Robert A. Morris. Mi sono occupato principalmente di testare e confrontare algoritmi di intelligenza artificiale in un ambito di ricerca.}
+\cventry{9/2011 -- 10/2011}{Collaborazione Part-time}{Università degli Studi di Padova}{}{}{Ho lavorato presso l'ufficio immatricolazioni titoli esteri. La collaborazione è durata 150 ore.}
+\cventry{7/2010 -- 8/2010}{Cassiere}{McDonalds - Mirabilandia}{Ravenna}{}{Dopo esperienza iniziale in cucina ho svolto la mansione di addetto alla cassa.}
+\cventry{6/2006 -- 7/2006}{Stagista}{Punto Ufficio srl - Buffetti}{Ravenna}{}{Mi occupavo di catalogare i prodotti, sviluppare timbri e stampe adesive, fornire assistenza, e del cablaggio della rete UTP.}
+
+\section{Educazione}
+\cventry{2012 -- 2015}{Laurea Magistrale in Informatica}{Università degli Studi di Padova}{}{\textit{Voto 110/110 e Lode}}{Tesi: \textit{Adding Contextual Information to Graph Kernels}}
+\cventry{2014}{Programma LLP Erasmus}{Katholieke Universiteit Leuven}{Belgio}{}{Esami svolti: Text Based Information Retrieval, Data Mining, Computer Vision.}
+\cventry{2009 -- 2012}{Laurea Triennale in Informatica}{Università degli Studi di Padova}{}{\textit{Voto 110/110 e Lode}}{Esami principali: Sistemi Operativi (30/30), Algoritmi e Strutture Dati (30/30), Reti e Sicurezza (30/30), Basi di Dati (30/30), Programmazione Concorrente e Distribuita (28/30). Tesi: \textit{Extensive Testing the Local Search Approach Within the Trajectory Noise Optimization Problem}}
+\cventry{2004 -- 2009}{Perito Tecnico Informatico}{Istituto Tecnico Industriale Statale ``Nullo Baldini''}{Ravenna}{\textit{Voto 100/100}}{Materie principali: Informatica, Sistemi, Elettronica, Matematica e Statistica. Tesina sul GPS e realizzazione in Delphi di un navigatore stradale che implementa l'algoritmo di Dijkstra.}  % arguments 3 to 6 can be left empty
+
+\section{Lingue}
+\cvitemwithcomment{Italiano}{Madrelingua}{}
+\cvitemwithcomment{Spagnolo}{Madrelingua}{}
+\cvitemwithcomment{Inglese}{B1}{Ho superato il ``Test di Abilità Linguistica'' (TAL) rilasciato dal ``Centro Linguistico di Ateneo'' (CLA), Università degli Studi di Padova. Sebbene ufficialmente abbia un certificato B1 ritengo che il mio livello di inglese sia più alto.}
+
+\section{Competenze informatiche}
+\cvitem{\textbf{Linguaggi}}{C/C++, Java, PL/SQL, PHP, JavaScript, ML, Python, C\#, Prolog, Pascal, Delphi, Matlab, Perl. I principali progetti accademici e non finora realizzati sono stati scritti adoperando C/C++, Python, Java, PL/SQL, ML.}
+\cvitem{\textbf{Altri linguaggi}}{XHTML, CSS, XML, XPath, XMLSchema, XSLT 1.0, DTD, RDF, HTML5 (base), \LaTeX.}
+\cvitem{\textbf{DBMS}}{MySQL, Microsoft Access per conoscenza personale.}
+\cvitem{\textbf{Sistemi operativi}}{Windows dalla versione 95, Linux, in particolare Ubuntu e Fedora che adopero normalmente. Conosco i rudimenti di shell scripting per entrambi i sistemi operativi.}
+\cvitem{\textbf{Software versioning}}{Git, Apache Subversion. Adoperato per la maggior parte dei progetti sviluppati in gruppo. Presso Datalogic adopero Serena Dimensions}
+\cvitem{\textbf{Software di virtualizzazione}}{VirtualBox. Utilizzato all'interno di un progetto per simulare una configurazione di una rete.}
+\cvitem{\textbf{IDE}}{NetBeans, Eclipse, QtCreator, Visual Studio, Unity 3D.}
+\cvitem{\textbf{Tecnologie di Machine Learning}}{Mi sono focalizzato principalmente sui metodi kernel, in particolare per dati strutturati.}
+\cvitem{\textbf{Altro}}{Nell'ambito della Computer Vision ho adoperato le librerie OpenCV (sia in C++ che Python) e Scikit-image. Su Python adopero fluidamente le librerie Numpy e Scipy. Per il tracciamento difetti e requisiti presso Datalogic utilizzo IBM Jazz. Ho adoperato le librerie IBM CPLEX per l'ottimizzazione combinatoria. So applicare e comprendere diagrammi UML. Conosco e so applicare i principali Design Pattern della GoF. Ho conoscenza delle principali tecniche nello sviluppo di siti web accessibili. Ho adoperato Assembly Z80 e PIC Assembly per programmare semplici circuiti.}
+
+\section{Pubblicazioni}
+\cventry{}{Extending local features with contextual information in graph kernels}{Università degli Studi di Padova}{}{}{Nicolò Navarin, Alessandro Sperduti e Riccardo Tesselli. In International Conference on Neural Information Processing (ICONIP) 2015. \href{http://link.springer.com/chapter/10.1007/978-3-319-26561-2_33}{http://link.springer.com/chapter/10.1007/978-3-319-26561-2\_33}}
+
+
+\section{Principali progetti non accademici svolti}
+%\cvitem{}{
+%\begin{itemize}
+\cvitem{\textbf{RX Body}}{Progetto a scopo museale basato su dinamiche di Natural Interaction e Computer Vision. Il sistema sviluppato consente a un utente di interagire, tramite sensori Microsoft Kinect, con una propria immagine virtuale interattiva.}
+\cvitem{\textbf{RX Table}}{Progetto a scopo museale basato su dinamiche di Natural Interaction e Computer Vision. Il sistema sviluppato consente a più utenti di interagire dinamicamente con oggetti reali per usufruire di contenuti multimediali virtuali.}
+%\end{itemize}
+%}
+
+\section{Principali progetti accademici svolti}
+\cvitem{\textbf{Computer Vision}}{Sviluppo di un sistema software capace di riconoscere ed estrarre le sagome degli incisivi a partire da radiografie panoramiche dentali. Il sistema è basato su una implementazione di Active Shape Models.}
+\cvitem{\textbf{Text Based Information Retrieval}}{Sviluppo di un sistema software di Information Retrieval il cui compito è quello di associare un set di query, estratte dal social network Pinterest, a un set di webshops di Amazon sulla base di una analisi dei contenuti semantici delle richieste. Il sistema implementa un modello topic-document basato su Non-Negative Matrix Factorization.}
+\cvitem{\textbf{Metodi e Modelli per l'Ottimizzazione Combinatoria}}{Lo scopo del progetto è l'implementazione di un software che risolva in modo esatto il problema del commesso viaggiatore. L'implementazione fa uso delle librerie IBM CPLEX. A seguito della soluzione esatta al problema, lo scopo del progetto è di realizzare una implementazione euristica al problema. Come approccio ho scelto di adoperare algoritmi genetici e altre tecniche di intelligenza artificiale.}
+\cvitem{\textbf{Sistemi con Vincoli}}{Lo scopo del progetto è la realizzazione di un risolutore automatico di CP-Nets acicliche basato su tecniche di Local Search.}
+\cvitem{\textbf{Intelligenza Artificiale}}{Sviluppo di un risolutore automatico di Sudoku che adotta strategie di programmazione con vincoli e di ricerca locale. Progetto realizzato in Java.}
+\cvitem{\textbf{Bioinformatica}}{Sviluppo di un algoritmo per l'identificazione rapida di marcatori genetici adoperando linguaggio Java.}
+\cvitem{\textbf{Linguaggi di Programmazione}}{Creazione di un compilatore LispKit per una macchina SECD, sviluppato tramite ML.}
+\cvitem{\textbf{Ingegneria del Software}}{Sviluppo di un software stand-alone in C++ per l'analisi e la quantificazione di dati provenienti da una PET, adoperando metodi di analisi spettrale scritti in Matlab.}
+\cvitem{\textbf{Tecnologie Web}}{Sviluppo di un sito internet per il progetto del punto precedente, adottando XHTML Strict, CSS, XML, XMLSchema, DTD, XPath, XSLT, Perl, che rispetti i principali criteri di accessibilità.}
+\cvitem{\textbf{Programmazione Concorrente e Distribuita}}{Sviluppo di un simulatore in Java di algoritmi di difesa per una rete di sensori wireless ad hoc.}
+\cvitem{\textbf{Programmazione ad Oggetti}}{Sviluppo di un software stand-alone in C++ per la gestione di una comunità di utenti stile LinkedIn.}
+\cvitem{\textbf{Basi di Dati}}{Sviluppo di un database MySQL e della relativa interfaccia in PHP per un sito di compravendita di brani realizzati indipendentemente da liberi autori.}
+
+\section{Competenze sociali e organizzative}
+\cvlistitem{Il lavoro svolto per l'ambito museale è stato svolto in piena autonomia assieme ad un collega nonché compagno di studi. Le scadenze di consegna e le specifiche sono state rispettate.\\}
+\cvlistitem{L'esperienza lavorativa presso l'Associazione Albert Einstein mi ha insegnato a pianificare in modo autonomo le lezioni private da impartire agli studenti, a partire dal piano di studi che lo studente deve affrontare entro le scadenze delle verifiche di valutazione. Tali competenze si sono rafforzate presso l'esperienza come Tutor Didattico presso l'università.\\}
+\cvlistitem{Il lavoro presso l'ufficio immatricolazioni titoli esteri mi ha permesso di maturare le mie abilità linguistiche e saper approcciarmi a persone di differenti culture. Mi ha fornito competenze amministrative per la gestione della documentazione e pianificazione del lavoro.\\}
+\cvlistitem{Il lavoro come cassiere presso McDonalds mi ha formato a comunicare col cliente, saper lavorare in coordinazione con altre persone, affrontare situazioni complicate col cliente. Mi ha consentito di imparare a lavorare dipendendo da altre persone, all'interno di un sistema modello catena di montaggio. Sono capace di affrontare situazioni di stress.\\}
+\cvlistitem{Il progetto di Ingegneria del Software mi ha fatto maturare nell'organizzazione di un progetto a lungo termine realizzato in squadra. Ho assunto ruoli sia come supervisore del progetto, analista, progettista e programmatore.\\}
+\cvlistitem{Ho fornito ripetizioni di informatica a studenti delle superiori in modo indipendente.\\}
+\cvlistitem{Ho fatto diverse esperienze di volontariato come animatore per bambini, e assistente di anziani e disabili presso l'Opera di Santa Teresa del Bambino Gesù a Ravenna. Questo mi ha permesso di maturare una maggior pazienza e saper affrontare situazioni delicate.}
+
+\section{Elenco degli esami accademici svolti}
+\cvitem{\textbf{Laurea Triennale}}{\textit{Architettura degli Elaboratori} 27/30\newline\textit{Algebra} 28/30\newline\textit{Analisi} 30/30\newline\textit{Programmazione} 25/30\newline\textit{Matematica Discreta e Probabilità} 28/30\newline\textit{Sistemi Operativi} 30/30 e lode\newline\textit{Logica} 30/30\newline\textit{Automi e Linguaggi Formali} 29/30\newline\textit{Algoritmi e Strutture Dati} 30/30\newline\textit{Programmazione a Oggetti} 26/30\newline\textit{Reti e Sicurezza} 30/30\newline\textit{Calcolo Numerico} 27/30\newline\textit{Basi di Dati} 30/30\newline\textit{Fisica} 26/30\newline\textit{Ingegneria del Software} 27/30\newline\textit{Programmazione Concorrente e Distribuita} 28/30\newline\textit{Ricerca Operativa} 30/30\newline\textit{Tecnologie Web} 30/30\newline\textit{Tecnologie Web 2} 30/30\newline\textit{Gestione delle Imprese Informatiche} 30/30}
+\cvitem{\textbf{Laurea Magistrale}}{\textit{Linguaggi di Programmazione} 30/30\newline\textit{Intelligenza Artificiale} 30/30\newline\textit{Bioinformatica} 30/30 e lode\newline\textit{Computabilità e Algoritmi} 29/30\newline\textit{Apprendimento Automatico} 30/30 e lode\newline\textit{Tecnologie Open Source} 27/30\newline\textit{Sistemi con Vincoli} 30/30 e lode\newline\textit{Sistemi Ipermediali} 30/30 e lode\newline\textit{Metodi e Modelli per l'Ottimizzazione Combinatoria} 30/30 e lode\newline\textit{Logica 2} 30/30 e lode\newline\textit{Computer Vision} 30/30 e lode\newline\textit{Text Based Information Retrieval} 30/30 e lode\newline\textit{Data Mining} 30/30 e lode}
+
+%\renewcommand{\listitemsymbol}{-~}            % change the symbol for lists
+\section{Patente}
+\cvlistitem{A, B}
+
+%\section{Informazioni aggiuntive}
+%\cvitem{}{Sono disponibile a iniziare lo stage da Giugno. La disponibilità per eventuali trasferte da concordare. Non vorrei perdere l'opportunità di laurearmi nell'anno accademico in corso per iscrivermi alla specialistica.}
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+\nocite{*}
+\bibliographystyle{plain}
+%\bibliography{publications}                   % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}              % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}              % 'publications' is the name of a BibTeX file
+
+%\clearpage\end{CJK*}                         % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.

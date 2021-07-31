@@ -1,0 +1,125 @@
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                        % style options are 'casual' (default) and 'classic' 
+\moderncvcolor{green}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+
+% personal data
+\firstname{Riccardo}
+\familyname{Tesselli}
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+\address{via E. Ravaglia 27, Piangipane (RA)}{48124}    % optional, remove the line if not wanted
+\mobile{+39 3382613795}                     % optional, remove the line if not wanted
+\phone{+39 0544419161}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{riccardo.tesselli@gmail.com}                          % optional, remove the line if not wanted
+%\homepage{www.johndoe.com}                    % optional, remove the line if not wanted
+%\extrainfo{additional information}            % optional, remove the line if not wanted
+\photo[64pt][0.4pt]{picture.jpg}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand{•}{•}*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+\maketitle
+\section{Personal Information}
+\cvitem{Surname}{\emph{Tesselli}}
+\cvitem{Name}{\emph{Riccardo}}
+\cvitem{Date of birth}{\emph{20/07/1990}}
+\cvitem{Place of birth}{\emph{Riobamba, Ecuador}}
+\cvitem{Address}{\emph{via E. Ravaglia 27, Piangipane (RA)}}
+\cvitem{Postal code}{\emph{48124}}
+\cvitem{Mobile}{\emph{+39 3382613795}}
+\cvitem{Telephone}{\emph{+39 0544419161}}
+\cvitem{E-mail}{\emph{riccardo.tesselli@gmail.com}}
+\cvitem{Nationality}{\emph{Italian}}
+\cvitem{Gender}{\emph{Male}}
+
+\section{Education}
+\cventry{2004--2009}{Expert in Information Technology}{Istituto Tecnico Industriale Statale ``Nullo Baldini''}{Ravenna}{\textit{Grade 100/100}}{Main subjects: Computer Science, Computer Systems, Electronics, Mathematics and Statistics.}  % arguments 3 to 6 can be left empty
+\cventry{2009--2012}{Bachelor Degree in Computer Science}{Università degli Studi di Padova}{}{\textit{Grade 110/110 cum laude}}{Thesis: Extensive Testing the Local Search Approach Within the Trajectory Noise Optimization Problem.}
+
+\cventry{2012--today}{Master Degree in Computer Science}{Università degli Studi di Padova}{}{}{}
+\section{Work Experience}
+\cventry{3/2013--6/2013}{Teacher}{Associazione Albert Einstein}{Ravenna}{}{I gave private lessons of computer science to high school students.}
+
+\cventry{9/2012--1/2013}{Developer}{Università degli Studi di Padova}{}{}{Development of the SAKE software, a tool to make spectral analysis quantification, in collaboration with the Department of Information Engineering of Università degli Studi di Padova.}
+
+\cventry{6/2012--8/2012}{Trainee}{NASA Ames Research Center - Università degli Studi di Padova}{}{}{Internship to develop the bachelor thesis, under the supervision of Dr. Kristen Brent Venable and Dr. Robert A. Morris.}
+
+\cventry{9/2011--10/2011}{Part-time collaboration}{Università degli Studi di Padova}{}{}{I worked at the registration office for foreign students. The collaboration lasted 150 hours.}
+
+\cventry{7/2010--8/2010}{Cashier}{McDonalds - Mirabilandia}{Ravenna}{}{}
+
+\cventry{6/2006--7/2006}{Trainee}{Punto Ufficio srl - Buffetti}{Ravenna}{}{Help desk, warehouse management, network wiring.}
+
+\section{List of Exams}
+\cvitem{\textbf{Bachelor Degree}}{\textit{Computer Architecture} 27/30\newline\textit{Algebra} 28/30\newline\textit{Analysis} 30/30\newline\textit{Programming} 25/30\newline\textit{Discrete Mathematics and Probability} 28/30\newline\textit{Operating Systems} 30/30 cum laude\newline\textit{Logic} 30/30\newline\textit{Automata Theory and Formal Languages} 29/30\newline\textit{Algorithms and Data Structures} 30/30\newline\textit{Object Oriented Programming} 26/30\newline\textit{Networks and Security} 30/30\newline\textit{Numerical Analysis} 27/30\newline\textit{Databases} 30/30\newline\textit{Physics} 26/30\newline\textit{Software Engineering} 27/30\newline\textit{Concurrent Programming} 28/30\newline\textit{Operational Research} 30/30\newline\textit{Web Technologies} 30/30\newline\textit{Web Technlogies 2} 30/30\newline\textit{Business Management} 30/30}
+\cvitem{\textbf{Master Degree}}{\textit{Programming Languages} 30/30\newline\textit{Artificial Intelligence} 30/30\newline\textit{Bioinformatics} 30/30 cum laude\newline\textit{Computability and Algorithms} 29/30\newline\textit{Machine Learning} 30/30 cum laude}
+
+\section{Main Academic Projects}
+\cvitem{\textbf{Databases}}{Development of Moosic, a MySQL database to manage music collections and the development of the front-end in PHP.}
+\cvitem{\textbf{Objected Oriented Programming}}{Development of Legami in C++, a stand-alone software to manage data in LinkedIn style.}
+\cvitem{\textbf{Concurrent Programming}}{Development of a Java simulator to study some security algorithms for wireless sensor networks.}
+\cvitem{\textbf{Software Engineering}}{Development of Sake, a tool to make spectral analysis quantification of PET data, written in C++ and Matlab.}
+\cvitem{\textbf{Web Technologies}}{Development of the Sake's website using W3C standars.}
+\cvitem{\textbf{Programming Languages}}{Development of a LispKit compiler for a SECD machine using ML.}
+\cvitem{\textbf{Bioinformatics}}{Development of an algorithm to identify genetic markers in a DNA sequence.}
+\cvitem{\textbf{Artificial Intelligence}}{Development of an automatic solver of Sudoku.}
+\cvitem{\textbf{Constraint Programming}}{Development of a tool to identify optimal solutions in CP-Nets.}
+
+\section{Computer skills}
+\cvitem{\textbf{Programming Languages}}{C/C++, Java, PL/SQL, PHP, JavaScript, ML, Python, Prolog, Pascal, Delphi, Matlab, Perl.}
+\cvitem{\textbf{Other Languages}}{XHTML, CSS, XML, XPath, XMLSchema, XSLT 1.0, DTD, HTML5 (base), \LaTeX.}
+\cvitem{\textbf{DBMS}}{MySQL, Microsoft Access.}
+\cvitem{\textbf{Operating Systems}}{Windows from version 95, Linux, in particular Ubuntu and Fedora.}
+\cvitem{\textbf{CVS}}{Apache Subversion, GIT.}
+\cvitem{\textbf{Virtualization Software}}{VirtualBox.}
+\cvitem{\textbf{IDE}}{NetBeans, Eclipse, QtCreator.}
+\cvitem{\textbf{Other}}{UML, QT, GoF's Design Patterns, Web Accessibility, Assembly Z80, PIC Assembly.}
+
+\section{Languages}
+\cvitemwithcomment{Italian}{Mother tongue}{}
+\cvitemwithcomment{Spanish}{Mother tongue}{}
+\cvitemwithcomment{English}{B1}{Passed the ``Test di Abilità Linguistica'' (TAL) released by ``Centro Linguistico di Ateneo'' (CLA), Università degli Studi di Padova}
+
+\renewcommand{\listitemsymbol}{-~}            % change the symbol for lists
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                   % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}              % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}              % 'publications' is the name of a BibTeX file
+
+%\clearpage\end{CJK*}                         % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
