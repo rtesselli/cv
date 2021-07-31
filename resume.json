@@ -1,0 +1,357 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Riccardo Tesselli",
+    "label": "Senior ML Engineer @Prometeia",
+    "image": "https://tesstas.duckdns.org/local/pic.jpeg",
+    "email": "riccardo.tesselli@gmail.com",
+    "phone": "+39 338 2613795",
+    "url": "https://tesstas.duckdns.org/local/me.html",
+    "summary": "Experienced Analyst with a demonstrated history of working in machine learning and computer vision projects. Skilled in Computer Science, development and deep learning. Enthusiast about Artificial intelligence and its applications.",
+    "location": {
+      "address": "Via De' Carracci 69/22",
+      "postalCode": "40129",
+      "city": "Bologna",
+      "countryCode": "IT",
+      "region": "Emilia-Romagna"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/riccardo-tesselli-bb044530/"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/rtesselli/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Prometeia S.p.A.",
+      "highlights": ["Main technologies: Python, Pandas, Numpy, Jupyter, Scikit-learn, SQL, PySpark, AWS, Docker, FastAPI"],
+      "position": "Senior ML Engineer",
+      "startDate": "2020-07-01",
+      "summary": "As Sr. ML Engineer, my main tasks are to design ML software architectures, coordinate small teams of data scientists and share results with the stakeholders.",
+      "url": "www.prometeia.it"
+    },
+    {
+      "name": "Prometeia S.p.A",
+      "endDate": "2020-06-30",
+      "highlights": ["Main technologies: Python, Pandas, Numpy, Jupyter, Scikit-learn, SQL, Keras, Scala, Spark, GCP"],
+      "position": "Data Scientist",
+      "startDate": "2018-11-05",
+      "summary": "Within the Data Science business line, I develop data-driven solutions in different application domains such as insurance and banking.",
+      "url": "www.prometeia.it"
+    },
+    {
+      "name": "Sysdata S.p.A.",
+      "endDate": "2018-11-02",
+      "highlights": [],
+      "position": "R&D Consultant",
+      "startDate": "2017-06-05",
+      "url": "www.sysdata.it",
+      "summary": "Worked as full-time R&D consultant at YNAP."
+    },
+    {
+      "name": "YOOX NET-A-PORTER GROUP",
+      "endDate": "2018-11-02",
+      "highlights": ["Main technologies: Python, Numpy, Keras, Tensorflow, Caffe, Jupyter, OpenCV, Scikit-learn, AWS, Android"],
+      "position": "R&D Consultant",
+      "startDate": "2017-06-05",
+      "summary": "Within the R&D department I joined the ML team, my main goal was to develop and research deep learning solutions to solve computer vision problems.",
+      "url": "www.ynap.com"
+    },
+    {
+      "name": "Datalogic",
+      "endDate": "2017-05-31",
+      "highlights": ["Main technologies: C++, ARM, Visual Studio, IBM Jazz"],
+      "position": "Junior Algorithms Engineer",
+      "startDate": "2015-10-05",
+      "summary": "I worked in the R&D division within the team in charge of developing the main vision library. My main task was to develop traditional computer vision algorithms for localizing and decoding 1D/2D barcodes and OCR symbologies in embedded architectures.",
+      "url": "www.datalogic.com"
+    },
+    {
+      "name": "University of Padova",
+      "endDate": "2015-06-30",
+      "highlights": [],
+      "position": "Main Tutor",
+      "startDate": "2014-10-31",
+      "summary": "I was the main teaching tutor for the Computer Science degree. I taught Computer Architecture and Programming.",
+      "url": "www.unipd.it"
+    },
+    {
+      "name": "Freelance",
+      "endDate": "2014-12-31",
+      "highlights": ["Main technologies: Unity, C#, OpenCV, C++, Kinect"],
+      "position": "Software Developer",
+      "startDate": "2014-07-31",
+      "summary": "I developed a couple of innovative projects for a museum with a focus on computer vision and human natural interaction.",
+      "url": ""
+    },
+    {
+      "name": "University of Padova",
+      "endDate": "2014-01-31",
+      "highlights": [],
+      "position": "Tutor",
+      "startDate": "2013-09-30",
+      "summary": "Teaching tutor for the Computer Science degree. I taught Computer Architectures",
+      "url": ""
+    },
+    {
+      "name": "Associazione Culturale Albert Einstein",
+      "endDate": "2013-06-30",
+      "highlights": [],
+      "position": "Teacher",
+      "startDate": "2013-03-31",
+      "summary": "I gave private lessons to high school students. The main topics were computer science, computer systems, and electornics.",
+      "url": ""
+    },
+    {
+      "name": "Sake",
+      "endDate": "2013-01-31",
+      "highlights": ["Main technologies: C++, QT, XML, XSLT, CSS"],
+      "position": "Software Developer",
+      "startDate": "2012-10-31",
+      "summary": "From a successfull academic experience, my team was hired to develop a stand-alone application to compute spectral analysis on 4D PET data. Also the website was developed with accessibility design patterns.",
+      "url": "http://bio.dei.unipd.it/sake/cgi-bin/index.cgi"
+    },
+    {
+      "name": "NASA Ames Research Center",
+      "endDate": "2012-09-30",
+      "highlights": ["Main technologies: Java, NetBeans"],
+      "position": "Trainee",
+      "startDate": "2012-06-30",
+      "summary": "For the Bachelor Degree thesis, I worked as a trainee within a NASA research project for the noise reduction of aircrafts. My main task was to test AI optimization algorithms.",
+      "url": "https://www.nasa.gov/ames/"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Coursera",
+      "area": "Architecting with Google Kubernetes Engine",
+      "studyType": "Specialization",
+      "startDate": "2020-07-01",
+      "endDate": "2020-09-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Università degli Studi di Padova",
+      "area": "Computer Science",
+      "studyType": "Master Degree",
+      "startDate": "2012-10-01",
+      "endDate": "2015-07-18",
+      "gpa": "110/110 Full Honors",
+      "courses": ["Thesis: Adding Contextual Information to Graph Kernels"]
+    },
+    {
+      "institution": "Katholieke Universiteit Leuven",
+      "area": "LLP Program",
+      "studyType": "Advanced Master in Artificial Intelligence",
+      "startDate": "2014-01-07",
+      "endDate": "2014-06-30",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Università degli Studi di Padova",
+      "area": "Computer Science",
+      "studyType": "Bachelor Degree",
+      "startDate": "2009-10-01",
+      "endDate": "2012-09-22",
+      "gpa": "110/110 Full Honors",
+      "courses": ["Thesis: Extensive Testing the Local Search Approach Within the Trajectory Noise Optimization Problem"]
+    },
+    {
+      "institution": "ITIS Nullo Baldini",
+      "area": "Computer Science Expert",
+      "studyType": "High School degree",
+      "startDate": "2004-09-10",
+      "endDate": "2009-07-18",
+      "gpa": "100/100",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Cited by",
+      "date": "2013-04-30",
+      "awarder": "Computer Methods and Programs in Biomedicine",
+      "summary": "Cited in https://kclpure.kcl.ac.uk/portal/en/publications/sake(78d21bb7-407c-4af3-8283-86c563693208).html for the implementation of the SAKE application."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Extending local features with contextual information in graph kernels",
+      "publisher": "International Conference on Neural Information Processing",
+      "releaseDate": "2015-12-31",
+      "website": "http://arxiv.org/abs/1507.02186",
+      "summary": "Graph kernels are usually defined in terms of simpler kernels over local substructures of the original graphs. Different kernels consider different types of substructures. However, in some cases they have similar predictive performances, probably because the substructures can be interpreted as approximations of the subgraphs they induce. In this paper, we propose to associate to each feature a piece of information about the context in which the feature appears in the graph. A substructure appearing in two different graphs will match only if it appears with the same context in both graphs. We propose a kernel based on this idea that considers trees as substructures, and where the contexts are features too. The kernel is inspired from the framework in [6], even if it is not part of it. We give an efficient algorithm for computing the kernel and show promising results on real-world graph classification datasets."
+    }
+  ],
+  "skills": [
+    {
+      "name": "ML Stack",
+      "level": "Master",
+      "keywords": ["Python", "Pandas", "Numpy", "Scikit-learn", "Keras", "NLTK", "Spacy", "Matplotlib", "Jupyter", "SQL", "PySpark", "OpenCV"]
+    },
+    {
+      "name": "Programming",
+      "level": "Intermediate",
+      "keywords": ["C++", "Java", "Scala", "C#"]
+    },
+    {
+      "name": "Cloud",
+      "level": "Advanced",
+      "keywords": ["AWS", "GCP"]
+    },
+    {
+      "name": "Tools",
+      "level": "Advanced",
+      "keywords": ["Git", "Pycharm", "Pytest", "FastAPI", "Docker", "Visual Studio"]
+    },
+    {
+      "name": "Other",
+      "level": "Intermediate",
+      "keywords": ["Unity 3D", "Latex", "QT"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Good"
+    }
+  ],
+  "projects": [
+    {
+      "name": "FastTrackAI",
+      "description": "Fast automatic car damage estimation",
+      "highlights": [
+        "SOTA deep learning",
+        "Cloud native"
+      ],
+      "keywords": ["Python", "PyTorch", "Azure"],
+      "startDate": "2021-04-01",
+      "url": "https://www.datgroup.com/it-it/fasttrack-ai/",
+      "roles": ["ML engineer", "IaaC mantainer"],
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "Global Investment Portfolio",
+      "description": "Gather investments from open banking data",
+      "highlights": [
+        "Text analysis",
+        "Open banking"
+      ],
+      "keywords": ["Python", "FastAPI", "AWS"],
+      "startDate": "2020-03-01",
+      "endDate": "2021-08-01",
+      "url": "https://www.fabrick.com/wp-content/uploads/2021/07/210721_Fabrick_Prometeia_CLEAN_revPrometeia_v3_CLEAN.pdf",
+      "roles": ["Team lead", "ML engineer"],
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "YQACAT",
+      "description": "Classify garments from pictures",
+      "highlights": [
+        "Intensive use of Deep Learning algorithms",
+        "Develop full prototype"
+      ],
+      "keywords": [
+        "Python",
+        "Keras",
+        "OpenCV"
+      ],
+      "startDate": "2017-06-05",
+      "endDate": "2018-11-02",
+      "url": "",
+      "roles": [
+        "Research",
+        "Development"
+      ],
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "YCAF",
+      "description": "OCR-based Android app",
+      "highlights": [
+        "Live OCR app to read wharehouse labels",
+        "Develop full app"
+      ],
+      "keywords": [
+        "Android",
+        "Java",
+        "OCR"
+      ],
+      "startDate": "2017-06-05",
+      "endDate": "2018-11-02",
+      "url": "",
+      "roles": [
+        "Research",
+        "Development"
+      ],
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "RX Body",
+      "description": "Kinect-based magic mirror",
+      "highlights": [
+        "Kinect",
+        "Natural interaction"
+      ],
+      "keywords": [
+        "Unity 3D",
+        "C#",
+        "Kinect"
+      ],
+      "startDate": "2014-07-01",
+      "endDate": "2014-12-01",
+      "url": "",
+      "roles": [
+        "Research",
+        "Development"
+      ],
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "RX Table",
+      "description": "Interactive computer vision-powered table",
+      "highlights": [
+        "OpenCV",
+        "Natural interaction"
+      ],
+      "keywords": [
+        "Unity 3D",
+        "C++"
+      ],
+      "startDate": "2014-07-01",
+      "endDate": "2014-12-01",
+      "url": "",
+      "roles": [
+        "Research",
+        "Development"
+      ],
+      "entity": "",
+      "type": ""
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
