@@ -29,7 +29,7 @@
   "work": [
     {
       "name": "Infinitas Learning Technology",
-      "highlights": ["Main technologies: Python, Snowflake, Terraform"],
+      "highlights": ["Main technologies: Python, Snowflake, Terraform, dbt"],
       "position": "Data Engineer",
       "startDate": "2021-10-11",
       "summary": "Creation of a modern and scalable data platform",
@@ -40,7 +40,7 @@
       "highlights": ["Main technologies: Python, Pandas, Numpy, Jupyter, Scikit-learn, SQL, PySpark, AWS, Docker, FastAPI"],
       "position": "Senior ML Engineer",
       "startDate": "2020-07-01",
-      "endDate": "2020-09-24",
+      "endDate": "2021-09-24",
       "summary": "As Sr. ML Engineer, my main tasks are to design ML software architectures, coordinate small teams of data scientists and share results with the stakeholders.",
       "url": "www.prometeia.it"
     },
