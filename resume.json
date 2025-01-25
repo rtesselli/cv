@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Riccardo Tesselli",
-    "label": "Data Engineer",
+    "label": "Senior Data/AI Engineer",
     "image": "https://tesstas.duckdns.org/local/pic.jpeg",
     "email": "riccardo.tesselli@gmail.com",
     "phone": "+39 338 2613795",
-    "url": "https://tesstas.duckdns.org/local/me.html",
-    "summary": "Experienced Analyst with a demonstrated history of working in machine learning and computer vision projects. Skilled in Computer Science, development and deep learning. Enthusiast about Artificial intelligence and its applications.",
+    "url": "https://rtesselli.github.io",
+    "summary": "Experienced software developer with a strong track record in machine learning and computer vision projects. Skilled in computer science, software development, and deep learning. Passionate about artificial intelligence and its applications.",
     "location": {
       "address": "Via De' Carracci 69/22",
       "postalCode": "40129",
@@ -27,6 +27,14 @@
     ]
   },
   "work": [
+    {
+      "name": "Infinitas Learning Technology",
+      "highlights": ["Main technologies: Python, RAG, Nvidia Triton"],
+      "position": "Senior Data/AI Engineer",
+      "startDate": "2021-10-11",
+      "summary": "Creation of a modern and scalable data platform",
+      "url": "www.infinitaslearning.com"
+    },
     {
       "name": "Infinitas Learning Technology",
       "highlights": ["Main technologies: Python, Snowflake, Terraform, dbt"],
